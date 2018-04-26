@@ -4,10 +4,11 @@ Header
 
 header {
     background-color: #ffffff;
+    
     border-color: #cccccc;
     
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 960px;
+    width: 980px;
     margin: auto;
     overflow:hidden;
     margin-bottom: 0;
@@ -21,9 +22,14 @@ header {
     float: left;
 }
 
+.nav-line {
+    border-right: 2px solid #cccccc;
+    
+}
+
 .nav-right {
     float: right;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .name {
@@ -32,17 +38,14 @@ header {
     padding: 0px 20px;
 }
 
-.nav {
-    
-}
 
 .nav a {
-    
     text-decoration: none;
 }
 
-.nav a:hover {
-    
+.nav-right a h4:hover {
+    color: purple;
+    font-size: 110%;
 }
 
 /* ----------------
@@ -128,7 +131,7 @@ Main Body
     position: relative;
     padding: 0 10px 200px 10px;
     top: 10px;
-    left: 10px;
+    /* left: 10px; */
     bottom: 10px;
     width: 960px;
     margin: auto;
