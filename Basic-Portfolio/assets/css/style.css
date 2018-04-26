@@ -54,9 +54,8 @@ Images
 
 #profile {
     float:left; 
-    width: 100px; 
-    height: 100px;
-    margin-top: 40px;
+    width: 20%;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
@@ -129,14 +128,25 @@ Main Body
     background-color: #ffffff;
     border: #dddddd;
     position: relative;
-    padding: 0 10px 200px 10px;
+    
     top: 10px;
     /* left: 10px; */
     bottom: 10px;
     width: 960px;
     margin: auto;
     overflow: hidden;
+}
 
+.content-1 {
+    padding: 0 10px 100px 10px;
+
+}
+.content-2 {
+    padding: 0 10px 70px 10px;
+}
+
+.content-3 {
+    padding: 0 10px 0px 10px;
 }
 
 /* ----------------
@@ -147,9 +157,11 @@ footer {
     background-color: #666666;
     text-align: center;
     border-top: 5px solid #4aaaa5;
-    padding: 90px 0 10px 0;
+    padding: 50px 0 10px 0;
     bottom: 0;
     color: #ffffff;
 }
 
-        
+td {
+    padding: 10px;
+}
